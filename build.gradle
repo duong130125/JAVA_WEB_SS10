@@ -37,6 +37,10 @@ dependencies {
     implementation("org.springframework:spring-web:${springVersion}")
     implementation("org.springframework:spring-webmvc:${springVersion}")
 
+    //commons-upload
+    implementation 'commons-fileupload:commons-fileupload:1.5'
+
+    //cloudinary
     implementation 'com.cloudinary:cloudinary-http44:1.36.0'
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
